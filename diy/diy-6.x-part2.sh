@@ -26,10 +26,10 @@ TARGET_DEVICES += tvi_tvi3315a" >> target/linux/rockchip/image/armv8.mk
 # 替换package/boot/uboot-rockchip/Makefile
 cp -f $GITHUB_WORKSPACE/configfiles/uboot-rockchip/Makefile package/boot/uboot-rockchip/Makefile
 
-# 复制dts补丁到package/boot/uboot-rockchip/patches
+# 复制U-Boot补丁到package/boot/uboot-rockchip/patches
 cp -f $GITHUB_WORKSPACE/configfiles/patch/101-rockchip-add-TVI-TVI3315A.patch package/boot/uboot-rockchip/patches/
 
-# 添加dts补丁到target/linux/rockchip/patches-6.6
+# 复制内核补丁到target/linux/rockchip/patches-6.6
 cp -f $GITHUB_WORKSPACE/configfiles/patch/128-arm64-dts-rockchip-rk3399-Add-TVI3315A.patch target/linux/rockchip/patches-6.6/
 # ================================================================
 # RK3399示例结束
