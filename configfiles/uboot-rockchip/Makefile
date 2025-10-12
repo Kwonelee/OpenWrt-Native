@@ -121,6 +121,13 @@ define U-Boot/rk3399/Default
   ATF:=rk3399_bl31.elf
 endef
 
+define U-Boot/tvi3315a-rk3399
+  $(U-Boot/rk3399/Default)
+  NAME:=TVI3315A
+  BUILD_DEVICES:= \
+    tvi_tvi3315a
+endef
+
 define U-Boot/nanopc-t4-rk3399
   $(U-Boot/rk3399/Default)
   NAME:=NanoPC T4
@@ -318,6 +325,7 @@ UBOOT_TARGETS := \
   rock-4se-rk3399 \
   rock-pi-4-rk3399 \
   rockpro64-rk3399 \
+  tvi3315a-rk3399 \
   rock-pi-s-rk3308 \
   nanopi-r2c-rk3328 \
   nanopi-r2c-plus-rk3328 \
