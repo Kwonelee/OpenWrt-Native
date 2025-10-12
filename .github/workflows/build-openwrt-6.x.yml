@@ -12,7 +12,7 @@ on:
    # - cron: 40 15 * * 3
 
 env:
-  REPO_URL: https://github.com/istoreos/istoreos
+  REPO_URL: https://github.com/openwrt/openwrt
   # REPO_BRANCH: main
   FEEDS_CONF: feeds.conf
   CONFIG_FILE: .config
@@ -31,7 +31,7 @@ jobs:
       matrix:
         REPO_BRANCH:
           # - main
-          - istoreos-24.10
+          - v24.10.3
           # - istoreos-23.05
         ARCHITECTURE:
           - armv8
@@ -209,7 +209,6 @@ jobs:
         files: |
           ${{ env.FIRMWARE }}/*station-m2-squashfs-sysupgrade.img.gz
           ${{ env.FIRMWARE }}/*tvi3315a-squashfs-sysupgrade.img.gz
-          ${{ env.FIRMWARE }}/*jp-tvbox-squashfs-sysupgrade.img.gz
 
     - name: 删除运行记录
       uses: Mattraks/delete-workflow-runs@main
