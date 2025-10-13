@@ -2,12 +2,12 @@
 
 ### 基础部分 ###
 # 使用 O2 级别的优化
-#sed -i 's/Os/O2/g' include/target.mk
+sed -i 's/Os/O2/g' include/target.mk
 
 # 内核版本设置
-#cp -rf ../OpenBox/kernel-6.6/kernel/0001-linux-module-video.patch ./package/0001-linux-module-video.patch
-#git apply package/0001-linux-module-video.patch
-#rm -rf package/0001-linux-module-video.patch
+cp -rf ../OpenBox/kernel-6.6/kernel/0001-linux-module-video.patch ./package/0001-linux-module-video.patch
+git apply package/0001-linux-module-video.patch
+rm -rf package/0001-linux-module-video.patch
 
 # 修复 Rust 报错
 sed -i 's/ci-llvm=true/ci-llvm=false/g' feeds/packages/lang/rust/Makefile
