@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -e
 
 # 集成设备无线
 mkdir -p package/base-files/files/lib/firmware/brcm
