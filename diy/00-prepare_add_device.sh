@@ -21,7 +21,7 @@ cp -f $GITHUB_WORKSPACE/configfiles/uboot-rockchip/Makefile package/boot/uboot-r
 
 # 复制U-Boot补丁到package/boot/uboot-rockchip/patches
 cp -f $GITHUB_WORKSPACE/configfiles/patch/001-disable-efi-loader.patch package/boot/uboot-rockchip/patches/
-#cp -f $GITHUB_WORKSPACE/configfiles/patch/001-rockchip-saradc-supports-rk3568.patch package/boot/uboot-rockchip/patches/
+cp -f $GITHUB_WORKSPACE/configfiles/patch/001-rockchip-saradc-supports-rk3568.patch package/boot/uboot-rockchip/patches/
 cp -f $GITHUB_WORKSPACE/configfiles/patch/101-rockchip-add-TVI-TVI3315A.patch package/boot/uboot-rockchip/patches/
 
 # 复制内核补丁到target/linux/rockchip/patches-6.6
