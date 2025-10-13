@@ -45,13 +45,11 @@ cp -f $GITHUB_WORKSPACE/configfiles/patch/128-arm64-dts-rockchip-rk3399-Add-TVI3
 #endef
 #TARGET_DEVICES += firefly_station-m2" >> target/linux/rockchip/image/armv8.mk
 
-# 复制dts与配置文件到package/boot/uboot-rockchip
-#cp -f $GITHUB_WORKSPACE/configfiles/dts/rk3568/rk3566-roc-pc.dts package/boot/uboot-rockchip/src/arch/arm/dts/
-#cp -f $GITHUB_WORKSPACE/configfiles/uboot-rockchip/rk3566-station-m2-u-boot.dtsi package/boot/uboot-rockchip/src/arch/arm/dts/
-#cp -f $GITHUB_WORKSPACE/configfiles/uboot-rockchip/station-m2-rk3566_defconfig package/boot/uboot-rockchip/src/configs/
+# 复制U-Boot补丁到package/boot/uboot-rockchip/patches
+#
 
-# 复制dts到files/arch/arm64/boot/dts/rockchip
-#cp -f $GITHUB_WORKSPACE/configfiles/dts/rk3568/rk3566-roc-pc.dts target/linux/rockchip/files/arch/arm64/boot/dts/rockchip/
+# 复制内核补丁到target/linux/rockchip/patches-6.6
+#
 # ================================================================
 # RK35xx示例结束
 # ================================================================
