@@ -154,7 +154,7 @@ git clone https://github.com/sbwml/package_new_ftp package/new/ftp
 #git clone https://github.com/sbwml/OpenAppFilter --depth=1 package/new/OpenAppFilter -b v6
 
 # iperf3
-sed -i "s/D_GNU_SOURCE/D_GNU_SOURCE -funroll-loops/g" feeds/packages/net/iperf3/Makefile
+#sed -i "s/D_GNU_SOURCE/D_GNU_SOURCE -funroll-loops/g" feeds/packages/net/iperf3/Makefile
 
 # nlbwmon
 #sed -i 's/services/network/g' feeds/luci/applications/luci-app-nlbwmon/root/usr/share/luci/menu.d/luci-app-nlbwmon.json
