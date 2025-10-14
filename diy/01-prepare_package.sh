@@ -94,7 +94,7 @@ sed -i 's/0666/0644/g;s/0777/0755/g' feeds/packages/net/samba4/files/smb.conf.te
 git clone https://github.com/sbwml/package_new_ftp package/new/ftp
 
 # openlist
-#git clone https://github.com/sbwml/luci-app-openlist2 package/new/openlist --depth=1
+git clone https://github.com/sbwml/luci-app-openlist2 package/new/openlist --depth=1
 
 # luci-compat - fix translation
 sed -i 's/<%:Up%>/<%:Move up%>/g' feeds/luci/modules/luci-compat/luasrc/view/cbi/tblsection.htm
@@ -105,7 +105,7 @@ rm -rf feeds/packages/utils/unzip
 git clone https://github.com/sbwml/feeds_packages_utils_unzip feeds/packages/utils/unzip
 
 # lucky
-#git clone https://github.com/gdy666/luci-app-lucky.git package/new/lucky
+git clone https://github.com/gdy666/luci-app-lucky.git package/new/lucky
 
 # custom packages
 rm -rf feeds/packages/utils/coremark
@@ -113,7 +113,7 @@ git clone https://github.com/sbwml/openwrt_pkgs package/new/custom --depth=1
 rm -rf package/new/custom/luci-app-adguardhome
 
 # adguardhome
-#git clone https://git.kejizero.online/zhao/luci-app-adguardhome package/new/luci-app-adguardhome 
+git clone https://git.kejizero.online/zhao/luci-app-adguardhome package/new/luci-app-adguardhome 
 
 # argon
 git clone https://github.com/Kwonelee/luci-theme-argon package/new/luci-theme-argon
