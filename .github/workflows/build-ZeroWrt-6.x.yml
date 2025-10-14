@@ -14,7 +14,7 @@ on:
 env:
   REPO_URL: https://github.com/openwrt/openwrt
   CONFIG_FILE: .config
-  DIY_DEVICE_SH: diy/00-prepare_add device.sh
+  DIY_DEVICE_SH: diy/00-prepare_add_device.sh
   DIY_BASE_SH: diy/00-prepare_base.sh
   DIY_PACKAGE_SH: diy/01-prepare_package.sh
   DIY_ROCKCHIP_SH: diy/02-rockchip_target_only.sh
