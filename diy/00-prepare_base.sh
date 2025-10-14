@@ -131,7 +131,7 @@ sed -i '\#export ENV=/etc/shinit#a export HISTCONTROL=ignoredups' package/base-f
 
 # files
 mkdir files
-cp -rf ../OpenBox/files/* ./files/
+cp -rf ../OpenBox/files/{etc,root,sbin} ./files/
 chmod -R +x files
 
 # NTP
