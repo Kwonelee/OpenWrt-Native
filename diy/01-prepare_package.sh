@@ -18,7 +18,7 @@ git clone https://github.com/Kwonelee/default-settings package/new/default-setti
 git clone https://github.com/sbwml/package_new_istore package/new/linkease
 
 # luci-app-quickfile
-git clone https://github.com/sbwml/luci-app-quickfile package/new/quickfile
+#git clone https://github.com/sbwml/luci-app-quickfile package/new/quickfile
 
 # luci-app-airplay2
 #git clone https://github.com/sbwml/luci-app-airplay2 package/new/airplay2
