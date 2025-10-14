@@ -14,6 +14,10 @@ on:
 env:
   REPO_URL: https://github.com/openwrt/openwrt
   CONFIG_FILE: .config
+  DIY_DEVICE_SH: diy/00-prepare_add device.sh
+  DIY_BASE_SH: diy/00-prepare_base.sh
+  DIY_PACKAGE_SH: diy/01-prepare_package.sh
+  DIY_ROCKCHIP_SH: diy/02-rockchip_target_only.sh
   UPLOAD_BIN_DIR: true
   UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: true
@@ -141,10 +145,10 @@ jobs:
         [ -e $CONFIG_FILE_PATH ] && mv $CONFIG_FILE_PATH openwrt/$CONFIG_FILE
         chmod +x diy/*.sh
         cd openwrt
-        $GITHUB_WORKSPACE/diy/00-prepare_add_device.sh
-        $GITHUB_WORKSPACE/diy/00-prepare_base.sh
-        $GITHUB_WORKSPACE/diy/01-prepare_package.sh
-        $GITHUB_WORKSPACE/diy/02-rockchip_target_only.sh
+        $GITHUB_WORKSPACE/DIY_DEVICE_SH
+        $GITHUB_WORKSPACE/DIY_BASE_SH
+        $GITHUB_WORKSPACE/DIY_PACKAGE_SH
+        $GITHUB_WORKSPACE/DIY_ROCKCHIP_SH
 
     # - name: SSH 连接到 Actions
       # uses: P3TERX/ssh2actions@main
