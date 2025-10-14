@@ -1,8 +1,8 @@
 #!/bin/bash -e
 
 # 集成设备无线
-mkdir -p package/base-files/files/lib/firmware/brcm
-cp -a $GITHUB_WORKSPACE/configfiles/firmware/brcm/* package/base-files/files/lib/firmware/brcm/
+#mkdir -p package/base-files/files/lib/firmware/brcm
+#cp -a $GITHUB_WORKSPACE/configfiles/firmware/brcm/* package/base-files/files/lib/firmware/brcm/
 
 # ================================================================
 # 移植RK3399示例，其他RK3399可模仿
