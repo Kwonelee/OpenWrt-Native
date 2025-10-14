@@ -4,28 +4,25 @@ CONFIG_TARGET_MULTI_PROFILE=y
 CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_armsom_sige3=y
 CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_armsom_sige7=y
 CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_sinovoip_bpi-r2-pro=y
-# CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_firefly_station-m2 is not set
 CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_friendlyarm_nanopc-t4=y
-# CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_friendlyarm_nanopc-t6 is not set
-# CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_friendlyarm_nanopi-r2c is not set
-# CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_friendlyarm_nanopi-r2c-plus is not set
-# CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_friendlyarm_nanopi-r2s is not set
-# CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_friendlyarm_nanopi-r3s is not set
-# CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_friendlyarm_nanopi-r4s is not set
-# CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_friendlyarm_nanopi-r4se is not set
-# CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_friendlyarm_nanopi-r5c is not set
-# CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_friendlyarm_nanopi-r5s is not set
-# CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_friendlyarm_nanopi-r6c is not set
-# CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_friendlyarm_nanopi-r6s is not set
-# CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_huake_guangmiao-g4c is not set
-# CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_lunzn_fastrhino-r66s is not set
-# CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_lunzn_fastrhino-r68s is not set
-# CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_radxa_rock-3c is not set
-# CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_radxa_rock-5a is not set
-# CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_radxa_rock-5b is not set
-# CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_tvi_tvi3315a is not set
-# CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_xunlong_orangepi-5 is not set
-# CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_xunlong_orangepi-5-plus is not set
+CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_friendlyarm_nanopc-t6=y
+CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_friendlyarm_nanopi-r2c=y
+CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_friendlyarm_nanopi-r2c-plus=y
+CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_friendlyarm_nanopi-r2s=y
+CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_friendlyarm_nanopi-r3s=y
+CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_friendlyarm_nanopi-r4s=y
+CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_friendlyarm_nanopi-r4se=y
+CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_friendlyarm_nanopi-r5c=y
+CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_friendlyarm_nanopi-r5s=y
+CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_friendlyarm_nanopi-r6c=y
+CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_friendlyarm_nanopi-r6s=y
+CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_huake_guangmiao-g4c=y
+CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_lunzn_fastrhino-r66s=y
+CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_lunzn_fastrhino-r68s=y
+CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_radxa_rock-5a=y
+CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_radxa_rock-5b=y
+CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_xunlong_orangepi-5=y
+CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_xunlong_orangepi-5-plus=y
 CONFIG_ALL_KMODS=y
 CONFIG_DEVEL=y
 CONFIG_TOOLCHAINOPTS=y
@@ -133,13 +130,13 @@ CONFIG_PACKAGE_TAR_POSIX_ACL=y
 CONFIG_PACKAGE_TAR_XATTR=y
 CONFIG_PACKAGE_TAR_XZ=y
 CONFIG_PACKAGE_TAR_ZSTD=y
-# CONFIG_PACKAGE_airconnect is not set
-# CONFIG_PACKAGE_airplay2-openssl is not set
+CONFIG_PACKAGE_airconnect=y
+CONFIG_PACKAGE_airplay2-openssl=y
 CONFIG_PACKAGE_alsa-lib=y
 CONFIG_PACKAGE_alsa-ucm-conf=y
 CONFIG_PACKAGE_alsa-utils=y
-# CONFIG_PACKAGE_appfilter is not set
-# CONFIG_PACKAGE_aria2 is not set
+CONFIG_PACKAGE_appfilter=y
+CONFIG_PACKAGE_aria2=y
 CONFIG_PACKAGE_ariang-nginx=y
 CONFIG_PACKAGE_arptables-nft=y
 CONFIG_PACKAGE_ath9k-htc-firmware=y
@@ -170,13 +167,13 @@ CONFIG_PACKAGE_coreutils-nohup=y
 CONFIG_PACKAGE_coreutils-stty=y
 CONFIG_PACKAGE_curl=y
 CONFIG_PACKAGE_dbus=y
-# CONFIG_PACKAGE_ddns-scripts is not set
-# CONFIG_PACKAGE_ddns-scripts-aliyun is not set
-# CONFIG_PACKAGE_ddns-scripts-cloudflare is not set
-# CONFIG_PACKAGE_ddns-scripts-dnspod is not set
-# CONFIG_PACKAGE_ddns-scripts-freedns is not set
-# CONFIG_PACKAGE_ddns-scripts-godaddy is not set
-# CONFIG_PACKAGE_ddns-scripts-services is not set
+CONFIG_PACKAGE_ddns-scripts=y
+CONFIG_PACKAGE_ddns-scripts-aliyun=y
+CONFIG_PACKAGE_ddns-scripts-cloudflare=y
+CONFIG_PACKAGE_ddns-scripts-dnspod=y
+CONFIG_PACKAGE_ddns-scripts-freedns=y
+CONFIG_PACKAGE_ddns-scripts-godaddy=y
+CONFIG_PACKAGE_ddns-scripts-services=y
 CONFIG_PACKAGE_default-settings=y
 CONFIG_PACKAGE_dns2socks=y
 # CONFIG_PACKAGE_dnsmasq is not set
@@ -353,7 +350,7 @@ CONFIG_PACKAGE_kmod-nft-compat=y
 CONFIG_PACKAGE_kmod-nft-fullcone=y
 CONFIG_PACKAGE_kmod-nft-socket=y
 CONFIG_PACKAGE_kmod-nft-tproxy=y
-# CONFIG_PACKAGE_kmod-oaf is not set
+CONFIG_PACKAGE_kmod-oaf=y
 CONFIG_PACKAGE_kmod-pps=y
 CONFIG_PACKAGE_kmod-ptp=y
 CONFIG_PACKAGE_kmod-random-core=y
@@ -496,104 +493,104 @@ CONFIG_PACKAGE_libyaml=y
 CONFIG_PACKAGE_libzstd=y
 CONFIG_PACKAGE_lsblk=y
 CONFIG_PACKAGE_luci=y
-# CONFIG_PACKAGE_luci-app-adguardhome is not set
-# CONFIG_PACKAGE_luci-app-airconnect is not set
-# CONFIG_PACKAGE_luci-app-airplay2 is not set
+CONFIG_PACKAGE_luci-app-adguardhome=y
+CONFIG_PACKAGE_luci-app-airconnect=y
+CONFIG_PACKAGE_luci-app-airplay2=y
 CONFIG_PACKAGE_luci-app-argon-config=y
-# CONFIG_PACKAGE_luci-app-aria2 is not set
-# CONFIG_PACKAGE_luci-app-autoreboot not set
+CONFIG_PACKAGE_luci-app-aria2=y
+CONFIG_PACKAGE_luci-app-autoreboot=y
 CONFIG_PACKAGE_luci-app-commands=y
-# CONFIG_PACKAGE_luci-app-ddns is not set
+CONFIG_PACKAGE_luci-app-ddns=y
 CONFIG_PACKAGE_luci-app-diskman=y
 CONFIG_PACKAGE_luci-app-dockerman=y
-# CONFIG_PACKAGE_luci-app-eqos is not set
+CONFIG_PACKAGE_luci-app-eqos=y
 CONFIG_PACKAGE_luci-app-firewall=y
 CONFIG_PACKAGE_luci-app-frpc=y
-# CONFIG_PACKAGE_luci-app-homeproxy is not set
-# CONFIG_PACKAGE_luci-app-lucky is not set
-# CONFIG_PACKAGE_luci-app-mentohust is not set
-# CONFIG_PACKAGE_luci-app-mosdns is not set
+CONFIG_PACKAGE_luci-app-homeproxy=y
+CONFIG_PACKAGE_luci-app-lucky=y
+CONFIG_PACKAGE_luci-app-mentohust=y
+CONFIG_PACKAGE_luci-app-mosdns=y
 CONFIG_PACKAGE_luci-app-natmap=y
 CONFIG_PACKAGE_luci-app-netspeedtest=y
-# CONFIG_PACKAGE_luci-app-nikki is not set
-# CONFIG_PACKAGE_luci-app-nlbwmon is not set
-# CONFIG_PACKAGE_luci-app-oaf is not set
-# CONFIG_PACKAGE_luci-app-openclash is not set
-# CONFIG_PACKAGE_luci-app-openlist2 is not set
+CONFIG_PACKAGE_luci-app-nikki=y
+CONFIG_PACKAGE_luci-app-bandix=y
+CONFIG_PACKAGE_luci-app-oaf=y
+CONFIG_PACKAGE_luci-app-openclash=y
+CONFIG_PACKAGE_luci-app-openlist2=y
 CONFIG_PACKAGE_luci-app-package-manager=y
-# CONFIG_PACKAGE_luci-app-passwall is not set
-# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Geoview is not set
-# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Haproxy is not set
-# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_NaiveProxy is not set
-# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_ShadowsocksR_Libev_Client is not set
-# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Libev_Client is not set
-# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Rust_Client is not set
-# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Rust_Server is not set
-# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Simple_Obfs is not set
-# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_SingBox is not set
-# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_V2ray_Geodata is not set
-# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Xray is not set
-# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Xray_Plugin is not set
-# CONFIG_PACKAGE_luci-app-passwall_Nftables_Transparent_Proxy is not set
-# CONFIG_PACKAGE_luci-app-qbittorrent is not set
+CONFIG_PACKAGE_luci-app-passwall=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Geoview=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Haproxy=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_NaiveProxy=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_ShadowsocksR_Libev_Client=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Libev_Client=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Rust_Client=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Rust_Server=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Simple_Obfs=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_SingBox=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_V2ray_Geodata=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Xray=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Xray_Plugin=y
+CONFIG_PACKAGE_luci-app-passwall_Nftables_Transparent_Proxy=y
+CONFIG_PACKAGE_luci-app-qbittorrent=y
 CONFIG_PACKAGE_luci-app-quickfile=y
 CONFIG_PACKAGE_luci-app-quickstart=y
 CONFIG_PACKAGE_luci-app-ramfree=y
 CONFIG_PACKAGE_luci-app-samba4=y
-# CONFIG_PACKAGE_luci-app-smartdns is not set
-# CONFIG_PACKAGE_luci-app-socat is not set
-# CONFIG_PACKAGE_luci-app-sqm is not set
+CONFIG_PACKAGE_luci-app-smartdns=y
+CONFIG_PACKAGE_luci-app-socat=y
+CONFIG_PACKAGE_luci-app-sqm=y
 CONFIG_PACKAGE_luci-app-store=y
 CONFIG_PACKAGE_luci-app-ttyd=y
 CONFIG_PACKAGE_luci-app-upnp=y
 CONFIG_PACKAGE_luci-app-usb-printer=y
-# CONFIG_PACKAGE_luci-app-watchcat is not set
-# CONFIG_PACKAGE_luci-app-webdav is not set
+CONFIG_PACKAGE_luci-app-watchcat=y
+CONFIG_PACKAGE_luci-app-webdav=y
 CONFIG_PACKAGE_luci-app-wolplus=y
-# CONFIG_PACKAGE_luci-app-zerotier is not set
-# CONFIG_PACKAGE_luci-i18n-adguardhome-zh-cn is not set
-# CONFIG_PACKAGE_luci-i18n-airconnect-zh-cn is not set
-# CONFIG_PACKAGE_luci-i18n-airplay2-zh-cn is not set
+CONFIG_PACKAGE_luci-app-zerotier=y
+CONFIG_PACKAGE_luci-i18n-adguardhome-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-airconnect-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-airplay2-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-argon-config-zh-cn=y
-# CONFIG_PACKAGE_luci-i18n-aria2-zh-cn is not set
-# CONFIG_PACKAGE_luci-i18n-autoreboot-zh-cn not set
+CONFIG_PACKAGE_luci-i18n-aria2-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-autoreboot-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-base-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-commands-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-cpufreq-zh-cn=y
-# CONFIG_PACKAGE_luci-i18n-ddns-zh-cn is not set
+CONFIG_PACKAGE_luci-i18n-ddns-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-diskman-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-dockerman-zh-cn=y
-# CONFIG_PACKAGE_luci-i18n-eqos-zh-cn is not set
+CONFIG_PACKAGE_luci-i18n-eqos-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-firewall-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-frpc-zh-cn=y
-# CONFIG_PACKAGE_luci-i18n-homeproxy-zh-cn is not set
-# CONFIG_PACKAGE_luci-i18n-lucky-zh-cn is not set
-# CONFIG_PACKAGE_luci-i18n-mentohust-zh-cn is not set
-# CONFIG_PACKAGE_luci-i18n-mosdns-zh-cn is not set
+CONFIG_PACKAGE_luci-i18n-homeproxy-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-lucky-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-mentohust-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-mosdns-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-natmap-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-netspeedtest-zh-cn=y
-# CONFIG_PACKAGE_luci-i18n-nikki-zh-cn is not set
-# CONFIG_PACKAGE_luci-i18n-nlbwmon-zh-cn is not set
-# CONFIG_PACKAGE_luci-i18n-oaf-zh-cn is not set
-# CONFIG_PACKAGE_luci-i18n-openlist2-zh-cn is not set
+CONFIG_PACKAGE_luci-i18n-nikki-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-bandix-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-oaf-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-openlist2-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-package-manager-zh-cn=y
-# CONFIG_PACKAGE_luci-i18n-passwall-zh-cn is not set
-# CONFIG_PACKAGE_luci-i18n-qbittorrent-zh-cn is not set
+CONFIG_PACKAGE_luci-i18n-passwall-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-qbittorrent-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-quickfile-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-quickstart-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-ramfree-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-samba4-zh-cn=y
-# CONFIG_PACKAGE_luci-i18n-smartdns-zh-cn is not set
-# CONFIG_PACKAGE_luci-i18n-socat-zh-cn is not set
-# CONFIG_PACKAGE_luci-i18n-sqm-zh-cn is not set
+CONFIG_PACKAGE_luci-i18n-smartdns-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-socat-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-sqm-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-ttyd-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-upnp-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-usb-printer-zh-cn=y
-# CONFIG_PACKAGE_luci-i18n-watchcat-zh-cn is not set
-# CONFIG_PACKAGE_luci-i18n-webdav-zh-cn is not set
+CONFIG_PACKAGE_luci-i18n-watchcat-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-webdav-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-wolplus-zh-cn=y
-# CONFIG_PACKAGE_luci-i18n-zerotier-zh-cn is not set
-CONFIG_PACKAGE_luci-lib-chartjs=y
+CONFIG_PACKAGE_luci-i18n-zerotier-zh-cn=y
+CONFIG_PACKAGE_luci-lib-jsonc=y
 CONFIG_PACKAGE_luci-lib-docker=y
 CONFIG_PACKAGE_luci-lib-ipkg=y
 CONFIG_PACKAGE_luci-lib-taskd=y
@@ -614,13 +611,13 @@ CONFIG_PACKAGE_luci-proto-qmi=y
 CONFIG_PACKAGE_luci-proto-wireguard=y
 CONFIG_PACKAGE_luci-theme-argon=y
 CONFIG_PACKAGE_luci-theme-bootstrap=y
-# CONFIG_PACKAGE_lucky is not set
+CONFIG_PACKAGE_lucky=y
 CONFIG_PACKAGE_mdadm=y
-# CONFIG_PACKAGE_mentohust is not set
+CONFIG_PACKAGE_mentohust=y
 CONFIG_PACKAGE_microsocks=y
 CONFIG_PACKAGE_miniupnpd-nftables=y
 CONFIG_PACKAGE_modemmanager=y
-# CONFIG_PACKAGE_mosdns is not set
+CONFIG_PACKAGE_mosdns=y
 CONFIG_PACKAGE_mount-utils=y
 CONFIG_PACKAGE_mt7601u-firmware=y
 CONFIG_PACKAGE_mwifiex-pcie-firmware=y
@@ -639,17 +636,17 @@ CONFIG_PACKAGE_nginx-mod-ubus=y
 CONFIG_PACKAGE_nginx-mod-zstd=y
 CONFIG_PACKAGE_nginx-ssl=y
 CONFIG_PACKAGE_nginx-ssl-util=y
-# CONFIG_PACKAGE_nikki is not set
-# CONFIG_PACKAGE_nlbwmon is not set
+CONFIG_PACKAGE_nikki=y
+CONFIG_PACKAGE_nlbwmon=y
 CONFIG_PACKAGE_nqptp=y
-# CONFIG_PACKAGE_openlist2 is not set
+CONFIG_PACKAGE_openlist2=y
 CONFIG_PACKAGE_openssh-sftp-server=y
 CONFIG_PACKAGE_openssl-util=y
 CONFIG_PACKAGE_p54-usb-firmware=y
 CONFIG_PACKAGE_p910nd=y
 CONFIG_PACKAGE_parted=y
 CONFIG_PACKAGE_picocom=y
-# CONFIG_PACKAGE_qbittorrent is not set
+CONFIG_PACKAGE_qbittorrent=y
 CONFIG_PACKAGE_qmi-utils=y
 CONFIG_PACKAGE_qt6-plugin-libqopensslbackend=y
 CONFIG_PACKAGE_qt6-plugin-libqsqlite=y
@@ -673,15 +670,15 @@ CONFIG_PACKAGE_rtl8192se-firmware=y
 CONFIG_PACKAGE_rtl8723au-firmware=y
 CONFIG_PACKAGE_rtl8723bu-firmware=y
 CONFIG_PACKAGE_rtl8821ae-firmware=y
-# CONFIG_PACKAGE_ruby is not set
-# CONFIG_PACKAGE_ruby-bigdecimal is not set
-# CONFIG_PACKAGE_ruby-date is not set
-# CONFIG_PACKAGE_ruby-digest is not set
-# CONFIG_PACKAGE_ruby-enc is not set
-# CONFIG_PACKAGE_ruby-pstore is not set
-# CONFIG_PACKAGE_ruby-psych is not set
-# CONFIG_PACKAGE_ruby-stringio is not set
-# CONFIG_PACKAGE_ruby-yaml is not set
+CONFIG_PACKAGE_ruby=y
+CONFIG_PACKAGE_ruby-bigdecimal=y
+CONFIG_PACKAGE_ruby-date=y
+CONFIG_PACKAGE_ruby-digest=y
+CONFIG_PACKAGE_ruby-enc=y
+CONFIG_PACKAGE_ruby-pstore=y
+CONFIG_PACKAGE_ruby-psych=y
+CONFIG_PACKAGE_ruby-stringio=y
+CONFIG_PACKAGE_ruby-yaml=y
 CONFIG_PACKAGE_runc=y
 CONFIG_PACKAGE_samba4-libs=y
 CONFIG_PACKAGE_samba4-server=y
@@ -722,21 +719,21 @@ CONFIG_PACKAGE_shadow-userdel=y
 CONFIG_PACKAGE_shadow-usermod=y
 CONFIG_PACKAGE_shadow-utils=y
 CONFIG_PACKAGE_shadow-vipw=y
-# CONFIG_PACKAGE_shadowsocks-libev-config is not set
-# CONFIG_PACKAGE_shadowsocks-libev-ss-local is not set
-# CONFIG_PACKAGE_shadowsocks-libev-ss-redir is not set
-# CONFIG_PACKAGE_shadowsocks-rust-sslocal is not set
-# CONFIG_PACKAGE_shadowsocks-rust-ssserver is not set
-# CONFIG_PACKAGE_shadowsocksr-libev-ssr-local is not set
-# CONFIG_PACKAGE_shadowsocksr-libev-ssr-redir is not set
+CONFIG_PACKAGE_shadowsocks-libev-config=y
+CONFIG_PACKAGE_shadowsocks-libev-ss-local=y
+CONFIG_PACKAGE_shadowsocks-libev-ss-redir=y
+CONFIG_PACKAGE_shadowsocks-rust-sslocal=y
+CONFIG_PACKAGE_shadowsocks-rust-ssserver=y
+CONFIG_PACKAGE_shadowsocksr-libev-ssr-local=y
+CONFIG_PACKAGE_shadowsocksr-libev-ssr-redir=y
 CONFIG_PACKAGE_simple-obfs-client=y
-# CONFIG_PACKAGE_sing-box is not set
+CONFIG_PACKAGE_sing-box=y
 CONFIG_PACKAGE_smartd=y
-# CONFIG_PACKAGE_smartdns is not set
+CONFIG_PACKAGE_smartdns=y
 CONFIG_PACKAGE_smartmontools=y
-# CONFIG_PACKAGE_socat is not set
+CONFIG_PACKAGE_socat=y
 CONFIG_PACKAGE_speedtest-cli=y
-# CONFIG_PACKAGE_sqm-scripts is not set
+CONFIG_PACKAGE_sqm-scripts=y
 CONFIG_PACKAGE_swap-utils=y
 CONFIG_PACKAGE_tar=y
 CONFIG_PACKAGE_taskd=y
@@ -761,7 +758,7 @@ CONFIG_PACKAGE_v2dat=y
 CONFIG_PACKAGE_v2ray-geoip=y
 CONFIG_PACKAGE_v2ray-geosite=y
 CONFIG_PACKAGE_vim=y
-# CONFIG_PACKAGE_watchcat is not set
+CONFIG_PACKAGE_watchcat=y
 CONFIG_PACKAGE_wget-ssl=y
 CONFIG_PACKAGE_wil6210-firmware=y
 CONFIG_PACKAGE_wireguard-tools=y
@@ -769,13 +766,13 @@ CONFIG_PACKAGE_wireless-tools=y
 CONFIG_PACKAGE_wpa-supplicant=m
 CONFIG_PACKAGE_wsdd2=y
 CONFIG_PACKAGE_wwan=y
-# CONFIG_PACKAGE_xray-core is not set
+CONFIG_PACKAGE_xray-core=y
 CONFIG_PACKAGE_xray-plugin=y
 CONFIG_PACKAGE_xtables-nft=y
 CONFIG_PACKAGE_xz=y
 CONFIG_PACKAGE_xz-utils=y
 CONFIG_PACKAGE_yq=y
-# CONFIG_PACKAGE_zerotier is not set
+CONFIG_PACKAGE_zerotier=y
 CONFIG_PACKAGE_zlib=y
 CONFIG_PACKAGE_zoneinfo-asia=y
 CONFIG_PACKAGE_zoneinfo-core=y
