@@ -145,10 +145,10 @@ jobs:
         [ -e $CONFIG_FILE_PATH ] && mv $CONFIG_FILE_PATH openwrt/$CONFIG_FILE
         chmod +x diy/*.sh
         cd openwrt
-        $GITHUB_WORKSPACE/DIY_DEVICE_SH
-        $GITHUB_WORKSPACE/DIY_BASE_SH
-        $GITHUB_WORKSPACE/DIY_PACKAGE_SH
-        $GITHUB_WORKSPACE/DIY_ROCKCHIP_SH
+        $GITHUB_WORKSPACE/$DIY_DEVICE_SH
+        $GITHUB_WORKSPACE/$DIY_BASE_SH
+        $GITHUB_WORKSPACE/$DIY_PACKAGE_SH
+        $GITHUB_WORKSPACE/$DIY_ROCKCHIP_SH
 
     # - name: SSH 连接到 Actions
       # uses: P3TERX/ssh2actions@main
