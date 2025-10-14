@@ -192,4 +192,4 @@ rm -rf package/new/custom/luci-app-adguardhome
 #git clone https://git.kejizero.online/zhao/luci-app-adguardhome package/new/luci-app-adguardhome 
 
 # argon
-git clone https://github.com/QuickWrt/luci-theme-argon package/new/luci-theme-argon
+git clone https://github.com/Kwonelee/luci-theme-argon package/new/luci-theme-argon
