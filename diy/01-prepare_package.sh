@@ -54,10 +54,6 @@ sed -i '/ubus_parallel_req/a\        ubus_script_timeout 300;' feeds/packages/ne
 cp -rf ../OpenBox/doc/nginx/luci.locations ./feeds/packages/net/nginx/files-luci-support/
 cp -rf ../OpenBox/doc/nginx/uci.conf.template ./feeds/packages/net/nginx-util/files/
 
-# opkg
-mkdir -p package/system/opkg/patches
-cp -rf ../OpenBox/opkg/* ./package/system/opkg/patches/
-
 # uwsgi - fix timeout
 sed -i '$a cgi-timeout = 600' feeds/packages/net/uwsgi/files-luci-support/luci-*.ini
 sed -i '/limit-as/c\limit-as = 5000' feeds/packages/net/uwsgi/files-luci-support/luci-webui.ini
