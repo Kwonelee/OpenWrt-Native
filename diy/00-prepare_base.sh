@@ -86,7 +86,7 @@ cp -rf ../OpenBox/kernel-6.6/btf/* ./target/linux/generic/hack-6.6/
 ### 个性化修改 ###
 #sed -i "s/192.168.1.1/192.168.5.100/g" package/base-files/files/bin/config_generate
 
-sed -i 's/OpenWrt/ZeroWrt/' package/base-files/files/bin/config_generate
+#sed -i 's/OpenWrt/ZeroWrt/' package/base-files/files/bin/config_generate
 
 #cp -rf ../OpenBox/doc/base-files/etc/banner ./package/base-files/files/etc/banner
 
@@ -117,8 +117,8 @@ mkdir -p package/system/opkg/patches
 cp -rf ../OpenBox/opkg/* ./package/system/opkg/patches/
 
 # TTYD
-sed -i 's/services/system/g' feeds/luci/applications/luci-app-ttyd/root/usr/share/luci/menu.d/luci-app-ttyd.json
-sed -i '3 a\\t\t"order": 50,' feeds/luci/applications/luci-app-ttyd/root/usr/share/luci/menu.d/luci-app-ttyd.json
+#sed -i 's/services/system/g' feeds/luci/applications/luci-app-ttyd/root/usr/share/luci/menu.d/luci-app-ttyd.json
+#sed -i '3 a\\t\t"order": 50,' feeds/luci/applications/luci-app-ttyd/root/usr/share/luci/menu.d/luci-app-ttyd.json
 sed -i 's/procd_set_param stdout 1/procd_set_param stdout 0/g' feeds/packages/utils/ttyd/files/ttyd.init
 sed -i 's/procd_set_param stderr 1/procd_set_param stderr 0/g' feeds/packages/utils/ttyd/files/ttyd.init
 
