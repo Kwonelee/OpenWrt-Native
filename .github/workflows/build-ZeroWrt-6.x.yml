@@ -92,9 +92,9 @@ jobs:
       run: |
         df -hT $PWD
         echo "开始克隆源代码仓库..."
-        git clone --depth=1 -b ${{ matrix.REPO_BRANCH }} $REPO_URL openwrt
-        #git clone --depth=1 -b openwrt-24.10 https://github.com/immortalwrt/immortalwrt immortalwrt
-        git clone --depth=1 -b openwrt-24.10 $REPO_URL openwrt_snap
+        git -c advice.detachedHead=false clone --depth=1 --quiet -b ${{ matrix.REPO_BRANCH }} $REPO_URL openwrt
+        #git clone --depth=1 --quiet -b openwrt-24.10 https://github.com/immortalwrt/immortalwrt immortalwrt
+        git clone --depth=1 --quiet -b openwrt-24.10 $REPO_URL openwrt_snap
         
         echo "正在克隆 OpenBox 仓库以支持后续编译"
         git clone --depth=1 -b main https://github.com/Kwonelee/OpenBox OpenBox
