@@ -137,10 +137,6 @@ sed -i 's/0666/0644/g;s/0777/0755/g' feeds/packages/net/samba4/files/smb.conf.te
 # netkit-ftp
 git clone https://github.com/sbwml/package_new_ftp package/new/ftp
 
-# SSRP & Passwall
-#rm -rf feeds/packages/net/{xray-core,v2ray-core,v2ray-geodata,sing-box}
-#git clone -b openwrt-24.10 https://github.com/QuickWrt/openwrt_helloworld package/new/helloworld
-
 # openlist
 #git clone https://github.com/sbwml/luci-app-openlist2 package/new/openlist --depth=1
 
