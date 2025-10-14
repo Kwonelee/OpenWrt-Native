@@ -35,3 +35,7 @@ wget -qO- $CLASH_META_URL | tar xOvz > files/etc/openclash/core/clash_meta
 #wget -qO- $GEOIP_URL > files/etc/openclash/GeoIP.dat
 #wget -qO- $GEOSITE_URL > files/etc/openclash/GeoSite.dat
 chmod +x files/etc/openclash/core/clash*
+
+# clash_config
+mkdir -p files/etc/config
+wget -qO- https://raw.githubusercontent.com/Kwonelee/Kwonelee/refs/heads/main/rule/openclash > files/etc/config/openclash
