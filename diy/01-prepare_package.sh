@@ -93,9 +93,6 @@ sed -i 's/0666/0644/g;s/0777/0755/g' feeds/packages/net/samba4/files/smb.conf.te
 # netkit-ftp
 git clone https://github.com/sbwml/package_new_ftp package/new/ftp
 
-# openlist
-git clone https://github.com/sbwml/luci-app-openlist2 package/new/openlist --depth=1
-
 # luci-compat - fix translation
 sed -i 's/<%:Up%>/<%:Move up%>/g' feeds/luci/modules/luci-compat/luasrc/view/cbi/tblsection.htm
 sed -i 's/<%:Down%>/<%:Move down%>/g' feeds/luci/modules/luci-compat/luasrc/view/cbi/tblsection.htm
@@ -104,16 +101,25 @@ sed -i 's/<%:Down%>/<%:Move down%>/g' feeds/luci/modules/luci-compat/luasrc/view
 rm -rf feeds/packages/utils/unzip
 git clone https://github.com/sbwml/feeds_packages_utils_unzip feeds/packages/utils/unzip
 
-# lucky
-git clone https://github.com/gdy666/luci-app-lucky.git package/new/lucky
-
 # custom packages
 rm -rf feeds/packages/utils/coremark
 git clone https://github.com/sbwml/openwrt_pkgs package/new/custom --depth=1
 rm -rf package/new/custom/luci-app-adguardhome
 
-# adguardhome
-git clone https://git.kejizero.online/zhao/luci-app-adguardhome package/new/luci-app-adguardhome 
 
-# argon
+# Git稀疏克隆，只克隆指定目录到本地
+function git_sparse_clone() {
+  branch="$1" repourl="$2" && shift 2
+  git clone --depth=1 -b $branch --single-branch --filter=blob:none --sparse $repourl
+  repodir=$(echo $repourl | awk -F '/' '{print $(NF)}')
+  cd $repodir && git sparse-checkout set $@
+  mv -f $@ ../package/new
+  cd .. && rm -rf $repodir
+}
+
+# 常见插件
 git clone https://github.com/Kwonelee/luci-theme-argon package/new/luci-theme-argon
+git_sparse_clone master https://github.com/vernesong/OpenClash luci-app-openclash
+git_sparse_clone main https://github.com/gdy666/luci-app-lucky luci-app-lucky lucky
+git_sparse_clone main https://github.com/sbwml/luci-app-openlist2 luci-app-openlist2 openlist2
+git clone https://git.kejizero.online/zhao/luci-app-adguardhome package/new/luci-app-adguardhome
