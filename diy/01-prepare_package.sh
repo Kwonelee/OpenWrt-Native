@@ -101,6 +101,9 @@ git clone https://github.com/sbwml/feeds_packages_utils_unzip feeds/packages/uti
 rm -rf feeds/packages/utils/coremark
 git clone https://github.com/sbwml/openwrt_pkgs package/new/custom --depth=1
 rm -rf package/new/custom/luci-app-adguardhome
+package/new/custom/luci-app-filebrowser-go/luasrc/view/filebrowser/filebrowser_log.htm
+package/new/custom/luci-app-filebrowser-go/luasrc/view/filebrowser/filebrowser_status.htm
+package/new/custom/luci-app-filebrowser-go/luasrc/controller/filebrowser.lua
 
 
 # Git稀疏克隆，只克隆指定目录到本地
