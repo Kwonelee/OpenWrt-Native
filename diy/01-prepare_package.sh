@@ -104,6 +104,7 @@ rm -rf package/new/custom/luci-app-adguardhome
 sed -i 's/services/nas/g' package/new/custom/luci-app-filebrowser-go/luasrc/view/filebrowser/filebrowser_log.htm
 sed -i 's/services/nas/g' package/new/custom/luci-app-filebrowser-go/luasrc/view/filebrowser/filebrowser_status.htm
 sed -i 's/services/nas/g' package/new/custom/luci-app-filebrowser-go/luasrc/controller/filebrowser.lua
+sed -i 's/_(\"File Browser\"), 100/_(\"File Browser\"), 1/' package/new/custom/luci-app-filebrowser-go/luasrc/controller/filebrowser.lua
 
 
 # Git稀疏克隆，只克隆指定目录到本地
