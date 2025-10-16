@@ -101,6 +101,7 @@ git clone https://github.com/sbwml/feeds_packages_utils_unzip feeds/packages/uti
 rm -rf feeds/packages/utils/coremark
 git clone https://github.com/sbwml/openwrt_pkgs package/new/custom --depth=1
 rm -rf package/new/custom/luci-app-adguardhome
+sed -i 's/admin/OpenWrt/g' package/new/custom/luci-app-filebrowser-go/root/etc/config/filebrowser
 sed -i 's/services/nas/g' package/new/custom/luci-app-filebrowser-go/luasrc/view/filebrowser/filebrowser_log.htm
 sed -i 's/services/nas/g' package/new/custom/luci-app-filebrowser-go/luasrc/view/filebrowser/filebrowser_status.htm
 sed -i 's/services/nas/g' package/new/custom/luci-app-filebrowser-go/luasrc/controller/filebrowser.lua
@@ -124,4 +125,5 @@ git clone https://github.com/Kwonelee/luci-theme-argon package/new/luci-theme-ar
 git_sparse_clone master https://github.com/vernesong/OpenClash luci-app-openclash
 git_sparse_clone main https://github.com/gdy666/luci-app-lucky luci-app-lucky lucky
 git_sparse_clone main https://github.com/sbwml/luci-app-openlist2 luci-app-openlist2 openlist2
-git clone https://git.kejizero.online/zhao/luci-app-adguardhome package/new/luci-app-adguardhome
+#git clone https://git.kejizero.online/zhao/luci-app-adguardhome package/new/luci-app-adguardhome
+git_sparse_clone js https://github.com/sirpdboy/luci-app-adguardhome luci-app-adguardhome
