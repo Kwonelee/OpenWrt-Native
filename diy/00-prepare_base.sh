@@ -13,10 +13,10 @@ sed -i 's/Os/O2/g' include/target.mk
 sed -i 's/ci-llvm=true/ci-llvm=false/g' feeds/packages/lang/rust/Makefile
 
 # 移除 SNAPSHOT 标签
-sed -i 's,-SNAPSHOT,,g' include/version.mk
-sed -i 's,-SNAPSHOT,,g' package/base-files/image-config.in
-sed -i '/CONFIG_BUILDBOT/d' include/feeds.mk
-sed -i 's/;)\s*\\/; \\/' include/feeds.mk
+#sed -i 's,-SNAPSHOT,,g' include/version.mk
+#sed -i 's,-SNAPSHOT,,g' package/base-files/image-config.in
+#sed -i '/CONFIG_BUILDBOT/d' include/feeds.mk
+#sed -i 's/;)\s*\\/; \\/' include/feeds.mk
 
 ### FW4 ###
 cp -rf ../OpenBox/firewall4/Makefile ./package/network/config/firewall4/Makefile
