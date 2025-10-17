@@ -126,4 +126,4 @@ git_sparse_clone master https://github.com/vernesong/OpenClash luci-app-openclas
 git_sparse_clone main https://github.com/gdy666/luci-app-lucky luci-app-lucky lucky
 git_sparse_clone main https://github.com/sbwml/luci-app-openlist2 luci-app-openlist2 openlist2
 #git clone https://git.kejizero.online/zhao/luci-app-adguardhome package/new/luci-app-adguardhome
-git_sparse_clone js https://github.com/sirpdboy/luci-app-adguardhome luci-app-adguardhome
+git clone -b master https://github.com/w9315273/luci-app-adguardhome package/new/luci-app-adguardhome
