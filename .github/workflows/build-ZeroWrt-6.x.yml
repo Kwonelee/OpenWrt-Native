@@ -13,7 +13,7 @@ on:
 
 env:
   REPO_URL: https://github.com/openwrt/openwrt
-  CONFIG_FILE: .config_test
+  CONFIG_FILE: .config
   DIY_DEVICE_SH: diy/00-prepare_add_device.sh
   DIY_BASE_SH: diy/00-prepare_base.sh
   DIY_PACKAGE_SH: diy/01-prepare_package.sh
