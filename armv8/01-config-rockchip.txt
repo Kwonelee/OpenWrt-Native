@@ -193,10 +193,10 @@ CONFIG_LIBCURL_OPENSSL=y
 # CONFIG_LIBCURL_NOSSL is not set
 
 ### Video Support ###
-CONFIG_PACKAGE_kmod-drm-rockchip=y
-CONFIG_PACKAGE_kmod-drm-panfrost=y
-CONFIG_PACKAGE_kmod-multimedia-input=y
-CONFIG_PACKAGE_kmod-backlight-pwm=y
+# CONFIG_PACKAGE_kmod-drm-rockchip is not set
+# CONFIG_PACKAGE_kmod-drm-panfrost is not set
+# CONFIG_PACKAGE_kmod-multimedia-input is not set
+# CONFIG_PACKAGE_kmod-backlight-pwm is not set
 
 ### OTHERS ###
 CONFIG_PACKAGE_kmod-crypto-cmac=y
