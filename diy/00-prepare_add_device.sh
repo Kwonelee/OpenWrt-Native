@@ -5,7 +5,7 @@ mkdir -p package/base-files/files/lib/firmware/brcm
 cp -a $GITHUB_WORKSPACE/configfiles/firmware/brcm/* package/base-files/files/lib/firmware/brcm/
 
 # ================================================================
-# 移植RK3399示例，其他RK3399可模仿
+# 移植RK3399示例(针对官方完全不支持的设备。采用补丁方式)
 # ================================================================
 # 增加tvi3315a设备
 echo -e "\\ndefine Device/tvi_tvi3315a
@@ -31,7 +31,7 @@ cp -f $GITHUB_WORKSPACE/configfiles/patch/128-arm64-dts-rockchip-rk3399-Add-TVI3
 # ================================================================
 
 # ================================================================
-# 移植RK3566示例，其他RK35xx可模仿
+# 移植RK3566示例(针对官方内核支持，但固件不支持的设备。采用文件替换方式)
 # ================================================================
 # 增加station-m2设备
 echo -e "\\ndefine Device/firefly_station-m2
