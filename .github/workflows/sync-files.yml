@@ -16,11 +16,11 @@ jobs:
     - name: 下载架构编译配置文件
       run: |
         mkdir -p ./armv8
-        wget -O ./armv8/.config https://raw.githubusercontent.com/Kwonelee/OpenWrt-Native/refs/heads/main/armv8/01-config-rockchip --no-check-certificate
+        wget -O ./armv8/.config https://raw.githubusercontent.com/Kwonelee/ZeroWrt-Native/refs/heads/main/armv8/00-config-rockchip --no-check-certificate
 
         FILE_PATH="./armv8/.config"
         if [ -f "$FILE_PATH" ] && [ -s "$FILE_PATH" ]; then
-           content=$(cat ${GITHUB_WORKSPACE}/armv8/02-config-common \
+           content=$(cat ${GITHUB_WORKSPACE}/armv8/01-config-common \
                      ${GITHUB_WORKSPACE}/armv8/config-docker \
                      ${GITHUB_WORKSPACE}/armv8/config-package \
                      ${GITHUB_WORKSPACE}/armv8/config-lto \
