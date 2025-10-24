@@ -96,7 +96,7 @@ jobs:
       run: |
         df -hT $PWD
         echo "开始克隆源代码仓库..."
-        git -c advice.detachedHead=false clone --depth=1 --quiet -b ${{ matrix.REPO_BRANCH }} $REPO_URL openwrt
+        git -c advice.detachedHead=false clone --depth=1 --branch "${{ matrix.REPO_BRANCH }}" --single-branch --quiet $REPO_URL openwrt
         #git clone --depth=1 --quiet -b openwrt-24.10 https://github.com/immortalwrt/immortalwrt immortalwrt
         git clone --depth=1 --quiet -b openwrt-24.10 $REPO_URL openwrt_snap
         
