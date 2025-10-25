@@ -1,4 +1,4 @@
-# ZeroWrt-Native
+# OpenWrt-Native
 
 # 🤔Introduce
 > **For testing only**
