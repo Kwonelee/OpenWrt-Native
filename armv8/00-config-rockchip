@@ -2,9 +2,15 @@
 CONFIG_TARGET_rockchip=y
 CONFIG_TARGET_rockchip_armv8=y
 CONFIG_TARGET_MULTI_PROFILE=y
+# CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_ariaboard_photonicat is not set
+# CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_armsom_sige3 is not set
 # CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_armsom_sige7 is not set
+# CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_sinovoip_bpi-r2-pro is not set
+# CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_cyber_cyber3588-aib is not set
+# CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_ezpro_mrkaio-m68s is not set
 CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_firefly_station-m2=y
 # CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_firefly_roc-rk3328-cc is not set
+# CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_firefly_roc-rk3568-pc is not set
 # CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_friendlyarm_nanopc-t4 is not set
 # CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_friendlyarm_nanopc-t6 is not set
 # CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_friendlyarm_nanopi-r2c is not set
@@ -13,10 +19,16 @@ CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_firefly_station-m2=y
 # CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_friendlyarm_nanopi-r3s is not set
 # CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_friendlyarm_nanopi-r4s is not set
 # CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_friendlyarm_nanopi-r4s-enterprise is not set
+# CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_friendlyarm_nanopi-r4se is not set
 # CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_friendlyarm_nanopi-r5c is not set
 # CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_friendlyarm_nanopi-r5s is not set
 # CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_friendlyarm_nanopi-r6c is not set
 # CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_friendlyarm_nanopi-r6s is not set
+# CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_huake_guangmiao-g4c is not set
+# CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_lunzn_fastrhino-r66s is not set
+# CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_lunzn_fastrhino-r68s is not set
+# CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_lyt_t68m is not set
+# CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_mmbox_anas3035 is not set
 # CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_pine64_rock64 is not set
 # CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_pine64_rockpro64 is not set
 # CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_radxa_cm3-io is not set
@@ -30,12 +42,12 @@ CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_firefly_station-m2=y
 # CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_radxa_rock-5b is not set
 # CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_radxa_rock-pi-4a is not set
 # CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_radxa_rock-pi-e is not set
-# CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_radxa_rock-pi-e-v3 is not set
 # CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_radxa_rock-pi-s is not set
 # CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_radxa_zero-3e is not set
 # CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_radxa_zero-3w is not set
-# CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_sinovoip_bpi-r2-pro is not set
 CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_tvi_tvi3315a=y
+# CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_xunlong_orangepi-5 is not set
+# CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_xunlong_orangepi-5-plus is not set
 # CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_xunlong_orangepi-r1-plus is not set
 # CONFIG_TARGET_DEVICE_rockchip_armv8_DEVICE_xunlong_orangepi-r1-plus-lts is not set
 CONFIG_TARGET_KERNEL_PARTSIZE=128
