@@ -5,7 +5,7 @@
  	rk3368-px5-evb.dtb \
  
 +dtb-$(CONFIG_ROCKCHIP_RK3399) += \
-+	rk3399-guangmiao-g4c.dtb \
++	rk3399-tvi3315a.dtb \
 +	rk3399-nanopi-r4se.dtb
 +
 +dtb-$(CONFIG_ROCKCHIP_RK3566) += \
