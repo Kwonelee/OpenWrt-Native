@@ -117,13 +117,6 @@ define U-Boot/rk3399/Default
   ATF:=$(RK3399_ATF)
 endef
 
-define U-Boot/tvi3315a-rk3399
-  $(U-Boot/rk3399/Default)
-  NAME:=TVI3315A
-  BUILD_DEVICES:= \
-    tvi_tvi3315a
-endef
-
 define U-Boot/guangmiao-g4c-rk3399
   $(U-Boot/rk3399/Default)
   NAME:=GuangMiao G4C
@@ -189,13 +182,6 @@ define U-Boot/rk3566/Default
   DEPENDS:=+PACKAGE_u-boot-$(1):trusted-firmware-a-rk3566
   ATF:=$(RK3566_ATF)
   TPL:=$(RK3566_TPL)
-endef
-
-define U-Boot/station-m2-rk3566
-  $(U-Boot/rk3566/Default)
-  NAME:=Station M2
-  BUILD_DEVICES:= \
-    firefly_station-m2
 endef
 
 define U-Boot/nanopi-r3s-rk3566
@@ -292,6 +278,13 @@ define U-Boot/nanopi-r5s-rk3568
     friendlyarm_nanopi-r5s
 endef
 
+define U-Boot/x3568-v4-rk3568
+  $(U-Boot/rk3568/Default)
+  NAME:=NineTripod X3568 v4
+  BUILD_DEVICES:= \
+    ninetripod_x3568-v4
+endef
+
 define U-Boot/photonicat-rk3568
   $(U-Boot/rk3568/Default)
   NAME:=Photonicat
@@ -336,6 +329,12 @@ define U-Boot/sige3-rk3568
     armsom_sige3
 endef
 
+define U-Boot/xiguapi-v3-rk3568
+  $(U-Boot/rk3568/Default)
+  NAME:=XiGuaPi V3
+  BUILD_DEVICES:= \
+    nlnet_xiguapi-v3
+endef
 
 # RK3588 boards
 
@@ -421,7 +420,6 @@ UBOOT_TARGETS := \
   rock-4se-rk3399 \
   rock-pi-4-rk3399 \
   rockpro64-rk3399 \
-  tvi3315a-rk3399 \
   rock-pi-s-rk3308 \
   nanopi-r2c-rk3328 \
   nanopi-r2c-plus-rk3328 \
@@ -435,7 +433,6 @@ UBOOT_TARGETS := \
   radxa-cm3-io-rk3566 \
   radxa-zero-3-rk3566 \
   rock-3c-rk3566 \
-  station-m2-rk3566 \
   bpi-r2-pro-rk3568 \
   fastrhino-r66s-rk3568 \
   fastrhino-r68s-rk3568 \
@@ -445,6 +442,8 @@ UBOOT_TARGETS := \
   nanopi-r5c-rk3568 \
   nanopi-r5s-rk3568 \
   photonicat-rk3568 \
+  x3568-v4-rk3568 \
+  xiguapi-v3-rk3568 \
   radxa-e25-rk3568 \
   roc-pc-rk3568 \
   rock-3a-rk3568 \
