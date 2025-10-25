@@ -1,4 +1,4 @@
-name: Build ZeroWrt 6.x
+name: Build OpenWrt 6.x
 
 on:
   repository_dispatch:
